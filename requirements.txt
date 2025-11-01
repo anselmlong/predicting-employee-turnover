@@ -1,0 +1,17 @@
+# Minimal requirements for the employee_turnover notebook
+pandas>=1.3
+numpy>=1.21
+scikit-learn>=1.0
+matplotlib>=3.3
+seaborn>=0.11
+xgboost>=1.6
+joblib
+jupyterlab
+notebook
+
+# Optional / heavy (install only if you need them)
+# torch>=1.10  # install separately if needed; prefer cpu/cu-specific wheels from PyTorch site
+# kaggle        # only if you want automatic Kaggle downloads
+
+# Notes:
+# - Some packages (torch, xgboost) can be large or require specific system deps. If installing on a server or in Colab, adapt as needed.
